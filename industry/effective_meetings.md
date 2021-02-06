@@ -1,10 +1,10 @@
 # Effective Meetings
-A how-to for running meetings, especially recurring meetings, effectively,
-inspired heavily by Urs Hoelzle's Google-internal good meetings manifesto.
+A how-to for running meetings, especially recurring meetings, effectively.
+Heavily inspired by Urs Hoelzle's Google-internal good meetings manifesto.
 
 ## Defrag the Calendar
 To oversimplify slightly, engineers don't get anything done outside of a flow
-state. Meetings break flow, and it usually takes about a half an hour to
+state. Meetings break flow, and it usually takes approximately half an hour to
 reestablish it. Each separate block of meetings on a calendar therefore carries
 about a half-hour surcharge on top of the time already wasted^Wspent in the
 meetings.
@@ -13,9 +13,9 @@ Take the time and effort to "play meeting tetris". It will pay for itself almost
 immediately.
 
 ## Have an Agenda
-Meetings are expensive; four people in a room for an hour costs a half a day
-cumulatively even if we ignore any fragmentation effects. An explicit set of
-goals for the meeting, ie an agenda, keeps discussion on priority topics and
+Meetings are expensive; four people in a room for an hour sums to half a day
+of work time, even if we ignore any fragmentation effects. An explicit set of
+goals for the meeting, i.e. an agenda, keeps discussion on priority topics and
 stops people getting lost in the weeds. Knowing the agenda ahead of time also
 discourages monopolization of the meeting by a few outgoing team members.
 
@@ -46,7 +46,10 @@ canceling it entirely.
 Similarly, if nothing in the meeting requires your presence or helps you to do
 your job, then you shouldn't be there. If people are doing a good job of writing
 agendas in advance then you can make this determination a priori and avoid ever
-breaking focus. If you're having trouble determining if you should or shouldn't
-be in a meeting consider the following rule of thumb: if you're checking email
-you should also be checking out.
+breaking focus. If you're in a meeting and having trouble determining if you 
+should or shouldn't there consider the following rule of thumb: if you're
+checking email you should also be checking out[1].
 
+[1] Do touch base with your manager before you start abandoning meetings midway
+	through, though. Your respect for efficiency could be misconstrued as
+	disrespect for your peers.
