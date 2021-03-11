@@ -28,9 +28,9 @@ likely to find value in the challenge of cracking a tricky problem, or in sating
 their curiosity at how a peculiar system works. People generally like to do
 things that matter, and though definitions of what matters are not uniform, they
 are not wholly random. We would suggest that tasks which are helpful, beautiful,
-or impressive are likely to inspire broadly; nobody needs further justification
-for feeding a starving man, or for composing a symphony, or for climbing a
-towering mountain, except that he could.
+or impressive are likely to inspire broadly; nobody needs a reason for feeding a
+starving man, or for composing a symphony, or for climbing a towering mountain,
+except that he can.
 
 Extrinsic motivators, meanwhile, are separate from the task but contingent on
 its completion. In a workplace these usually come in two forms. The first,
@@ -90,8 +90,8 @@ programmer what the ultimate use of her work is there's a good chance she'll
 shrug her shoulders and say "I dunno, [porn probably](https://xkcd.com/1629/)"
 -- not the proudest of monuments.
 
-Now, there is still one last wrinkle to be ironed out: we may not ourselves have a strong
-impression of a project's purpose, even though we are in charge of
+Now, there is still one last wrinkle to be ironed out: we may not ourselves have
+a strong impression of a project's purpose, even though we are in charge of
 it. The first thing we ought to do in such a case is question the premise:
 perhaps the project isn't worth the time and should be scrapped or reworked. Or,
 perhaps we didn't have the whole picture, and our inquiries can uncover it for
@@ -104,6 +104,6 @@ lot of organizational clout may have decreed that the work is important. Neither
 of those counts for shit down where the iron flies, except insofar as it can
 affect career prospects (i.e. it may be possible to squeeze some extrinsic
 incentives out of them). The best we can do if that's our project's only
-justification is to (1) be honest with your team about the project's ignoble
+justification is to (1) be honest with your team about the project's uninspiring
 nature and (2) be cognizant of the fact that we're probably burning morale to
 make it happen.
