@@ -38,9 +38,10 @@ money, is obvious: people get fired if they stop showing up or start slacking
 off, top performers may be eligible for bonuses or raises, and so on. The second,
 face/status, is only slightly less obvious. Managers, unless they are downright
 terrible at their jobs, praise their team members when they do something
-exceptional and are certain to do it where others can see. Many companies have
-awards that they hand out to members of particularly successful projects before
-trotting them up on stage to have their heads patted in front of everyone.
+exceptional and are certain to do it where others can see. Additionally, many
+companies have awards that they hand out to members of particularly successful
+projects before trotting them up on stage to have their heads patted in front of
+everyone.
 
 It is common to look at intrinsic motivators as somehow more pure or noble than
 their crass extrinsic cousins. That may or may not be, but it is not our purpose
@@ -74,36 +75,36 @@ different formulations of the same task can create wildly different degrees of
 engagement. The canonical example of this is the mason working towards the
 construction of a magnificent cathedral. If someone asked him what he does at
 work he could say that he lays bricks, or that he builds cathedrals, and in both
-cases be equally truthful. The motivational distinction between the two is
-stark, however, is stark. If we can create an analog to the cathedral
-formulation for our project, and keep it clear in everybody's minds we can solve
-much of our motivational challenge.
+cases be equally truthful. The motivational distinction between the two,
+however, is stark. If we can create an analog to the cathedral formulation for
+our project, and keep it clear in everybody's minds we can solve much of our
+motivational challenge.
 
 It may seem that this is a trivial endeavor that doesn't require any special
-care on the part of leadership, especially if we focus hard on the bricks and
-cathedrals example. It is, after all, fairly obvious if you're building walls in
-a cathedral. Two things complicate this in practice. First, it is still valid
-for the mason to describe his work as the laying of bricks, and it's entirely
-possible that he hasn't spent any time thinking about which formulation he finds
-more motivating. Second, software is stupid complicated these days. If you ask a
-programmer what the ultimate use of her work is there's a good chance she'll
-shrug her shoulders and say "I dunno, [porn probably](https://xkcd.com/1629/)"
--- not the proudest of monuments.
+care on the part of leadership, especially if we focus too much on the bricks
+and cathedrals example. It is, after all, fairly obvious if you're building
+walls in a cathedral. Two things complicate this in practice. First, it is still
+valid for the mason to describe his work as the laying of bricks, and it is
+entirely possible that he hasn't spent any time thinking about which formulation
+he finds more motivating. Second, modern software is stupid complicated. If you
+ask a programmer what the ultimate use of her work is there's a good chance
+she'll shrug her shoulders and say "I dunno, [porn
+probably](https://xkcd.com/1629/)" -- not the proudest of monuments.
 
 Now, there is still one last wrinkle to be ironed out: we may not ourselves have
 a strong impression of a project's purpose, even though we are in charge of
 it. The first thing we ought to do in such a case is question the premise:
 perhaps the project isn't worth the time and should be scrapped or reworked. Or,
-perhaps we didn't have the whole picture, and our inquiries can uncover it for
+perhaps we don't have the whole picture, and our inquiries can uncover it for
 us.
 
 In the worst case there may a good reason, but only from a very particular
 perspective. Most commonly this takes the shape of a project which stands to
-make somebody a tremendous sum of money. Or, nearly equivalently, someone with a
-lot of organizational clout may have decreed that the work is important. Neither
-of those counts for shit down where the iron flies, except insofar as it can
-affect career prospects (i.e. it may be possible to squeeze some extrinsic
-incentives out of them). The best we can do if that's our project's only
-justification is to (1) be honest with your team about the project's uninspiring
-nature and (2) be cognizant of the fact that we're probably burning morale to
-make it happen.
+make somebody a tremendous sum of money. Or, nearly equivalently, someone with
+significant organizational clout may have decreed that the work is
+important. Neither of those counts for shit down where the iron flies, except
+insofar as it can affect career prospects (i.e. it may be possible to squeeze
+some extrinsic incentives out of them). The best we can do if that's our
+project's only justification is to (1) be honest with our team about the
+project's uninspiring nature and (2) be cognizant of the fact that we're
+probably burning morale to make it happen.
