@@ -1,3 +1,8 @@
+---
+header-includes:
+  - \hypersetup{colorlinks=true}
+---
+
 # Motorcycle?
 
 ## TL;DR
