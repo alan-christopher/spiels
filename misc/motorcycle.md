@@ -15,9 +15,9 @@ bitten by the idea that maybe one would make sense.
 
 ## Motorcycles as Transit
 
-For better or worse, cars are the de facto standard transit solution for most
-Americans, so we will use them as our baseline for evaluating the desirability
-of motorcycles from a purely utilitarian perspective.
+For better or worse[^1], cars are the de facto standard transit solution for
+most Americans, so we will use them as our baseline for evaluating the
+desirability of motorcycles from a purely utilitarian perspective.
 
 ### Comparison
 
@@ -117,49 +117,60 @@ morning.
 
 Now, many people own and operate motorcycles not because they're practical, but
 because they're *fun*. It must be recognized that these are expensive toys, but
-if we compare them to their natural competitor, the sports car[^1], they fairly
-well dominate. 
+if we compare them to their natural competitor, the sports car[^2], they almost
+dominate.
 
 ### Comparison
 
-They win on price: a new Suzuki Hayabusa can be had for ~20k USD,
-while you're not walking off the lot with a new 'vette for less than 60k
-USD. 
+First, areas of advantage for motorcycles:
 
-They provide similar-to-better performance (unless we get into true
-supercar range, where traction advantages in cars can overcome the weight
-advantage the bike enjoys). Once more,
+1. Price. A new Suzuki Hayabusa can be had for ~20k USD, while you're not
+walking off the lot with a new 'vette for less than 60k USD.
+1. Speed. Motorcycles provide similar-to-better performance to sports cars, at
+least until we get into true supercar range, where traction advantages in cars
+can overcome the weight advantages that bikes enjoy. Once more,
 [Hayabusa](https://www.zeroto60times.com/vehicle-make/suzuki-motorcycles-0-60-mph-times/fast-slow-0-60/?region%5B%5D=Domestic#accordion-48570)
 vs
-[Corvette](https://www.zeroto60times.com/vehicle-make/chevrolet-0-60-mph-times/fast-slow-0-60/?yearMin=2014&yearMax=2022&bodyStyle%5B%5D=16752&bodyStyle%5B%5D=119#accordion-47541). 
+[Corvette](https://www.zeroto60times.com/vehicle-make/chevrolet-0-60-mph-times/fast-slow-0-60/?yearMin=2014&yearMax=2022&bodyStyle%5B%5D=16752&bodyStyle%5B%5D=119#accordion-47541).
+1. Control and engagement. The actual speed and performance of a sports vehicle
+is not all *that* important[^3]; it's really about how fun they are to
+operate. Motorcycles, being less shielded from the environment than cars,
+generally provide a greater sensation of speed than a car moving at a similar
+pace, a point in their favor. Then there's the fact that motorsports isn't just
+about experiencing speed and acceleration (certain roller coasters would
+completely outcompete it were that so), it's about controlling that speed and
+acceleration. This the core reason why it is sacriligeous to install an automatic
+transmission in a sports car[^4]. So where in a transit context it was a serious
+disadvantage that going from a car to a motorcycle is like going from an
+automatic to a manual transmission five times over, in the context of a
+motorsport toy it is a tremendous advantage.
 
-Lastly, the real speed and performance of a sports vehicle is actually not the
-important thing[^2]; it's really about how fun they are to operate. Motorcycles,
-being less shielded from the environment than cars, generally provide a greater
-sensation of speed than a car moving at a similar pace, a point in their
-favor. Then there's the fact that motorsports isn't just about experiencing
-speed and acceleration (roller coasters would completely outcompete it were that
-so), it's about controlling that speed and acceleration.This the core reason why
-it is sacriligeous to install an automatic transmission in a sports car[^3]. So
-where in a transit context it was a serious disadvantage that going from a car
-to a motorcycle is like going from an automatic to a manual transmission five
-times over, in the context of a motorsport toy it is a tremendous advantage.
+And then areas of disadvantage:
+
+1. Safety. Even if we remove visibility concerns by operating on a track instead
+of a normal road, bikes are still fundamentally more dangerous than cars because
+they are more challenging to operate and because they are less shielded. You
+might technically be able to flip your porsche, but even if you do, there's
+still a roll cage protecting you.  Meanwhile, it's trivial to through yourself
+off a bike, and the only thing protecting you at that point is whatever gear
+you've got strapped on.
 
 ### Verdict
 
 In sum, a sportsbike can provide similar or better real performance than a
 sportscar at a much lower price point, and its perceived performance should only
-amplify the gap. Motorcycles, then, are the natural platform for those
-interested in making the (not insignificant) investments necessary to engage in
-motorsports.
+amplify the gap. Assuming you are comfortable with high-risk behavior, and are
+willing to/interested in making the (not insignificant) investments necessary to
+engage in motorsports, motorcycles are a natural platform to choose.
 
-[^1]: Motorcycles are involved in off-road motorsports as well, but we're going
+[^1]: It's for the worse, but that's a topic for another time.
+[^2]: Motorcycles are involved in off-road motorsports as well, but we're going
     to focus on track sports.
-[^2]: Unless you are a professional racer, or your goal is simply to brag about
+[^3]: Unless you are a professional racer, or your goal is simply to brag about
     your fancy car to the people you're with. If the former, your choice of
     vehicle has already been made. If the latter, we strongly advise looking for
     a more interesting crowd to associate with and/or being more interesting
     yourself.
-[^3]: And why, in our opinion, extraordinary EV performance numbers such as
+[^4]: And why, in our opinion, extraordinary EV performance numbers such as
 	those claimed by Tesla's roadster models are technically impressive but
 	ultimately pointless.
