@@ -1,0 +1,143 @@
+\title{Counting Numerals}
+\author{A.C.}
+\date{}
+
+\documentclass[12pt]{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+It occurred to me recently that in all my math and computer science education I
+have never come across a proper demonstration of how and why numerals are an
+adequate representation of counting numbers. The appropriateness of carry-based
+arithmetic on Arabic numerals is a fairly obvious consequence of commutativity,
+at least for students of \href{https://www.youtube.com/watch?v=zWPn3esuDgU}{new
+math}, but it is not immediately clear\footnote{If the reader believes that it
+\emph{is} obvious, then we postulate that he or she has simply gotten used to
+it.} that every counting number can be represented by an Arabic numeral, and
+that its representation is unique. Let's take a few minutes here to address that
+gap.
+
+We'll start by defining Arabic numerals, and their more general counterpart,
+counting numerals.
+
+\begin{definition}
+  A counting numeral in radix $r \in \{2, 3, \ldots\}$ is a finite but arbitrarily long ordered list of digits $(d_0, d_1,\ldots, d_{n-1})$ s.t. $ d_k \in \{0, 1, \ldots, r-1\}$. In its standard usage, the numerical value represented by a digit $(d_0, d_1,\ldots, d_{n-1})$ is $d_0 + d_1r^1 + \cdots + d_{n-1}r^{n-1}$, or in sigma notation $\sum_{k=0}^{n-1} d_kr^k$.
+\end{definition}
+
+\begin{definition}
+  An Arabic numeral is a counting numeral in radix 10.
+\end{definition}
+
+Of course, we do not commonly write a numeral out as $(d_0, d_1, \ldots,
+d_{n-1})$, but rather as $d_{n-1}\ldots d_1d_0$, and sometimes we write the radix
+as a subscript to make it explicit. E.g. $1337_8$ would be the numeral $(7, 3,
+3, 1)$ in radix 8.
+
+\section{Intuition}
+
+The core trick to counting numerals is in a well-known property about them: more
+significant digits dominate less significant digits. If we wish to know which of
+a pair of numerals is larger, we only need to compare the most significant
+digit. We know that $238$ is larger than $199$ even without comparing the ones
+and tens places, because $2 > 1$. More than that, we know that the domination is
+minimal: 100 is precisely one more than 99, 200 is precisely one more than 199,
+etc. This first fact ensures that different places will not intrude on one
+another's ``turf'', and will eventually yield uniqueness, while the second
+ensures that no numbers can slip through the cracks, and will eventually yield
+completeness.
+
+\section{Rigor}
+
+\begin{lemma}
+  The largest $n$-digit numeral in radix $r$ has value $r^n-1$.
+\end{lemma}
+
+\begin{proof}
+  The largest $n$-digit numeral in radix $r$ is clearly $(r-1, r-1,\ldots,r-1)$,
+  and so its value must be
+
+  \begin{align*}
+     (r-1) + (r-1)r + (r-1)r^2 + \cdots + (r-1)r^{n-1} \\
+    = (r-1) + (r^2 -r) + (r^3 -r^2) + \cdots + (r^n - r^{n-1})
+  \end{align*}
+
+  Observe the $+r$ in the first term, the $-r$ in the second term, the $+r^2$ in
+the second term and the $-r^2$ in the third, and so on. Regrouping, we see that
+the only two terms that do not cancel out are the $-1$ from the first term and
+the $r^n$ from the last, giving us $r^n-1$, as expected.
+
+Now, math with ellipses should make us at least somewhat uncomfortable, as it
+can hide mistakes. We therefore repeat the same proof in sigma notation:
+\begin{align*}
+  \sum_{k=0}^{n-1}(r-1)r^k &= \sum_{k=0}^{n-1}(r^{k+1}-r^k) \\
+  &= \sum_{k=0}^{n-1}r^{k+1} - \sum_{k=0}^{n-1}r^k \\
+  &= \sum_{k=1}^{n}r^{k} - \sum_{k=0}^{n-1}r^k \\
+  &= \left(r^n + \sum_{k=1}^{n-1}r^{k}\right) - \left(\sum_{k=1}^{n-1}r^k + 1\right) \\
+  &= r^n - 1
+\end{align*}
+\end{proof}
+
+\begin{theorem}
+  For any arbitrary counting number $0 \leq x < r^n$, there exists an $n$-digit
+numeral in radix $r$ whose value is $x$.
+\end{theorem}
+
+\begin{proof}
+  We proceed inductively on the number of digits in the numeral.
+
+  Base case: The value of a one-digit numeral is simply
+  the digit, so the base case of $n=1$ is obviously satisfied.
+
+  Induction step: Find the largest counting number $m$ such that $m
+r^{n-1} < x$. Observe that $m < r$, or we would have $x \geq r^n$, contrary to the
+conditions of our construction. Observe also that $x - mr^{n-1} < r^{n-1}$, or
+we could have chosen a larger $m$. Write $d_{n-1} := m$, and choose
+$(d_{0},\ldots,d_{n-2})$ to represent $x- mr^{n-1}$, as per the induction hypothesis, and we have
+
+\begin{align*}
+  x &= x - mr^{n-1} + mr^{n-1} \\
+    &= \left( \sum_{k=0}^{n-2} d_kr^k \right) + mr^{n-1}\\
+    &= \left( \sum_{k=0}^{n-2} d_kr^k \right) + d_{n-1}r^{n-1}\\
+    &= \sum_{k=0}^{n-1} d_kr^k
+\end{align*}
+\end{proof}
+
+\begin{theorem}
+  Given any two numerals in radix $r$ $(a_0,\ldots,a_{n-1})$ and $(b_0,\ldots,
+b_{n-1})$ with values $a$ and $b$, if $a = b$, then $a_k = b_k\forall k$.
+\end{theorem}
+
+\begin{proof}
+  We prove the contrapositive: if there exists an index $i$ s.t. $a_i \neq b_i$,
+  then $a \neq b$.
+
+  If there exists an $i$ s.t. $a_i \neq b_i$, then there must exist a greatest index
+  s.t. the same holds -- our numerals are of finite length. Call this index $k$.
+
+  Without loss of generality, assume $a \geq b$ and consider the difference
+$a-b$. Because every digit more significant than $k$ is equal, we may write this
+difference as
+
+\begin{align*}
+  a - b &= r^k(a_k - b_k) + \sum_{i=0}^{k-1} \left( a_ir^i - b_ir^i \right)\\
+        &\geq r^k + \sum_{i=0}^{k-1} \left( a_ir^i - b_ir^i \right)\\
+        &\geq r^k - (r^k - 1)\\
+        &= 1
+\end{align*}
+
+The difference between $a$ and $b$ is nonzero, and so $a \neq b$.
+\end{proof}
+
+\end{document}
