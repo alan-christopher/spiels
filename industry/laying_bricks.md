@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-If you're a manager or team lead and your team members can tell you, off the
+If you're a manager or team lead and your team members cannot tell you, off the
 tops of their heads, why the work they do is important, then you're doing
 something wrong.
 
