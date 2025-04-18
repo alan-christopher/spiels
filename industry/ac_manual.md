@@ -85,6 +85,18 @@ In cases where such ambiguity seems particularly undesirable, I may note that
 "This is not a hint" (or less frequently, that it *is*). The statement means
 exactly what it says.
 
+### I Mean So
+
+What I say, I mean.
+
+"This is not a hint" is a notable special case of this phenomenon. Offers of
+assistance are likewise genuine, so too any feedback given, work assessed, or
+congratulations made.
+
+Note, however, that the converse does not always hold. That is, I do not claim
+perfect honesty. Rather, I assert a strong preference for omission over
+fabrication.
+
 ### Advocatus Diaboli
 
 I care very much about the quality of arguments. The conclusions that shake out
